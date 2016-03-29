@@ -42,7 +42,7 @@ tree:
 
 develop:
 	npm link
-	bower link
+	bower link --allow-root
 
 build:
 	grunt build
